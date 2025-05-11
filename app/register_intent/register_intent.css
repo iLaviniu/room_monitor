@@ -1,0 +1,67 @@
+#registerIntentServerMessagesContainer {
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 50%;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+#registerIntentContainer {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 50%;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #registerIntentServerMessagesContainer {
+        margin-top: 10px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        border-radius: 25px;
+        width: 100%;
+        overflow-y: auto;
+        justify-content: center;
+    }
+    
+    #registerIntentContainer {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-radius: 25px;
+        width: 100%;
+        overflow-y: auto;
+        justify-content: center;
+    }
+}
+
+
+.registerIntentInput{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 2px solid red;
+	text-align: center;
+}
+
+.registerIntentButton {
+    width: 80%;
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+}
+

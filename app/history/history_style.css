@@ -1,0 +1,67 @@
+#calendarPickerContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 50px;
+    justify-content: center;
+}
+
+#temperatureContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+}
+
+#humidityContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+}
+
+#atmosphericPressureContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    #calendarPickerContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+    }
+    
+    #temperatureContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+    }
+    
+    #humidityContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+    }
+    
+    #atmosphericPressureContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+    }
+}

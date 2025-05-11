@@ -1,0 +1,100 @@
+.container-fluid{
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+#serverMessagesList {
+    list-style: none;
+}
+
+#newComersContainer {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 50%;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+#serverMessagesContainer {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 50%;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #newComersContainer {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-radius: 25px;
+        width: 100%;
+        overflow-y: auto;
+        justify-content: center;
+    }
+
+    #serverMessagesContainer {
+        margin-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 25px;
+        width: 100%;
+        overflow-y: auto;
+        justify-content: center;
+    }
+}
+
+#newComersTableContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background: #73AD21;
+    width: 100%;
+    height: Auto;
+    justify-content: center;
+}
+
+#newComersButtonContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background: #73AD21;
+    width: 100%;
+    height: Auto;
+    justify-content: center;
+}
+
+.newComersInput{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid red;
+	text-align: center;
+}
+
+.newComersButton {
+    width: 80%;
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	height: Auto;
+}
+
+
+

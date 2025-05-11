@@ -1,0 +1,147 @@
+.container-fluid{
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+#loginContainer {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 50%;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #loginContainer {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-radius: 25px;
+        width: 100%;
+        overflow-y: auto;
+        justify-content: center;
+    }
+}
+
+
+.loginInput{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid red;
+	text-align: center;
+}
+
+.loginButton {
+    width: 80%;
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+}
+
+#statusAndUserNameContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 40px;
+    justify-content: center;
+}
+
+#arduinoStatusContainer {
+    border-radius: 25px;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+
+#userNameContainer {
+    border-radius: 25px;
+    width: 100%;
+    height: 40px;
+}
+
+#temperatureContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+}
+
+#humidityContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+}
+
+#atmosphericPressureContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+}
+
+#dateTimeContainer {
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 60%;
+    height: 40px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #statusAndUserNameContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+    }
+    
+    #temperatureContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+    }
+    
+    #humidityContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+    }
+    
+    #atmosphericPressureContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+    }
+    
+    #dateTimeContainer {
+        margin-top: 10px;
+        border-radius: 25px;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+    }
+}

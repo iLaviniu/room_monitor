@@ -1,0 +1,46 @@
+
+/*list implementation*/
+.conversion-rate-list {
+    width: 80%;
+    
+    padding: 0;
+    
+    list-style: none;
+}
+
+.first_item {
+    text-align: center;
+    border: 3px solid #ddd;
+    border-radius: 25px;
+}
+
+.item {
+    text-align: center;
+    border: 3px solid #ddd;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+
+/*table implementation*/
+.conversion-rate-table {
+    display: none;
+    
+    text-align: center;
+    
+    width: 80%;
+}
+
+.cell {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .conversion-rate-list{
+        display: none;
+    }
+    
+    .conversion-rate-table{
+        display: table;
+    }
+}
